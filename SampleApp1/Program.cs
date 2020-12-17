@@ -8,12 +8,13 @@ namespace SampleApp1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            void print()
+        static void print()
             {
                 Console.WriteLine("From method print changes");
             }
+        static void Main(string[] args)
+        {
+            print();
         }
     }
 }
