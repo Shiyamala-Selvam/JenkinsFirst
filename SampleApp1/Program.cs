@@ -10,6 +10,10 @@ namespace SampleApp1
     {
         static void Main(string[] args)
         {
+            void print()
+            {
+                Console.WriteLine("From method print changes");
+            }
         }
     }
 }
